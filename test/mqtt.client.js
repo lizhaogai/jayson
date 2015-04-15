@@ -10,7 +10,7 @@ var client = jayson.client.mqtt({
 });
 
 // the third parameter is set to "null" to indicate a notification
-client.info({
+client.channel({
     deviceId: "1234567890",
     channelId: "on-off"
 }).request('onoff_add', [4, 1], '1212weidsionvsd', function (err, response) {
