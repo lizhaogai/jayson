@@ -3,6 +3,8 @@ var musher = require("musher");
 
 var server = jayson.server({
     onoff_add: function (a, b, callback) {
+        console.log('a is : ' + a);
+        console.log('b is : ' + b);
         return callback(null, a + b);
     }
 });
