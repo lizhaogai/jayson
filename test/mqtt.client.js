@@ -18,3 +18,5 @@ client.channel({
     console.log(response);
     // request was received successfully
 });
+
+//bus.publish("$node/E8EAC0275658E775","command", {a: 12});
